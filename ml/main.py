@@ -181,6 +181,7 @@ if __name__ == '__main__':
     importer = json.JsonExperimentImporter(r'/home/ai4-admin/runs/exp_small.json')
     loaded_experiment = importer.load()
     augmentation_pipeline.run_pipeline(loaded_experiment, True)
+    print('ready')
 
 
     #evaluate_correlations(experiment_dir, strategies, datasets, approaches, '', '', 'fold', None)
