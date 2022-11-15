@@ -1,0 +1,71 @@
+dataset	approach	fold	metric	value
+Helpdesk	Buksh	fold_0	Accuracy	0.49179318834632746
+Helpdesk	Buksh	fold_0	Recall	0.15078311999682967
+Helpdesk	Buksh	fold_0	Precision	0.12987705280291603
+Helpdesk	Buksh	fold_0	F1 - Score(macro)	0.1373256900437493
+Helpdesk	Buksh	fold_0	F1 - Score(micro)	0.49179318834632746
+Helpdesk	Buksh	fold_1	Accuracy	0.4948749487494875
+Helpdesk	Buksh	fold_1	Recall	0.13882052968582548
+Helpdesk	Buksh	fold_1	Precision	0.12000718625708189
+Helpdesk	Buksh	fold_1	F1 - Score(macro)	0.12706378123088885
+Helpdesk	Buksh	fold_1	F1 - Score(micro)	0.4948749487494875
+Helpdesk	Camargo	fold_0	Accuracy	0.5798112433319655
+Helpdesk	Camargo	fold_0	Recall	0.15857570638820637
+Helpdesk	Camargo	fold_0	Precision	0.11614432818370321
+Helpdesk	Camargo	fold_0	F1 - Score(macro)	0.133136750247228
+Helpdesk	Camargo	fold_0	F1 - Score(micro)	0.5798112433319655
+Helpdesk	Camargo	fold_1	Accuracy	0.5455104551045511
+Helpdesk	Camargo	fold_1	Recall	0.13245773176022554
+Helpdesk	Camargo	fold_1	Precision	0.10089560435414624
+Helpdesk	Camargo	fold_1	F1 - Score(macro)	0.1139965901237281
+Helpdesk	Camargo	fold_1	F1 - Score(micro)	0.5455104551045511
+Helpdesk	Khan	fold_0	Accuracy	0.049677821658698815
+Helpdesk	Khan	fold_0	Recall	0.02890758155192443
+Helpdesk	Khan	fold_0	Precision	0.009923300320722531
+Helpdesk	Khan	fold_0	F1 - Score(macro)	0.013972058739500599
+Helpdesk	Khan	fold_0	F1 - Score(micro)	0.049677821658698815
+Helpdesk	Khan	fold_1	Accuracy	0.2672820512820513
+Helpdesk	Khan	fold_1	Recall	0.15999307625173
+Helpdesk	Khan	fold_1	Precision	0.09178900258117473
+Helpdesk	Khan	fold_1	F1 - Score(macro)	0.08534652968257146
+Helpdesk	Khan	fold_1	F1 - Score(micro)	0.2672820512820513
+Helpdesk	Mauro	fold_0	Accuracy	0.004924086992203529
+Helpdesk	Mauro	fold_0	Recall	0.1111111111111111
+Helpdesk	Mauro	fold_0	Precision	0.000547457743105454
+Helpdesk	Mauro	fold_0	F1 - Score(macro)	0.0010895471569628875
+Helpdesk	Mauro	fold_0	F1 - Score(micro)	0.004924086992203529
+Helpdesk	Mauro	fold_1	Accuracy	0.002870028700287003
+Helpdesk	Mauro	fold_1	Recall	0.0008019705562238643
+Helpdesk	Mauro	fold_1	Precision	0.05303030303030303
+Helpdesk	Mauro	fold_1	F1 - Score(macro)	0.0015800462727837028
+Helpdesk	Mauro	fold_1	F1 - Score(micro)	0.002870028700287003
+Helpdesk	Pasquadibisceglie	fold_0	Accuracy	0.4774312679524005
+Helpdesk	Pasquadibisceglie	fold_0	Recall	0.1354920664799697
+Helpdesk	Pasquadibisceglie	fold_0	Precision	0.1300738428506607
+Helpdesk	Pasquadibisceglie	fold_0	F1 - Score(macro)	0.11487754442460187
+Helpdesk	Pasquadibisceglie	fold_0	F1 - Score(micro)	0.4774312679524005
+Helpdesk	Pasquadibisceglie	fold_1	Accuracy	0.5205002050020501
+Helpdesk	Pasquadibisceglie	fold_1	Recall	0.13751968370393894
+Helpdesk	Pasquadibisceglie	fold_1	Precision	0.15675800850280736
+Helpdesk	Pasquadibisceglie	fold_1	F1 - Score(macro)	0.11868837058030068
+Helpdesk	Pasquadibisceglie	fold_1	F1 - Score(micro)	0.5205002050020501
+Helpdesk	Tax	fold_0	Accuracy	0.0004103405826836274
+Helpdesk	Tax	fold_0	Recall	0.027777777777777776
+Helpdesk	Tax	fold_0	Precision	5.542622769094335e-05
+Helpdesk	Tax	fold_0	F1 - Score(macro)	0.00011063170704723974
+Helpdesk	Tax	fold_0	F1 - Score(micro)	0.00041034058268362745
+Helpdesk	Tax	fold_1	Accuracy	0.2933579335793358
+Helpdesk	Tax	fold_1	Recall	0.05419838654698329
+Helpdesk	Tax	fold_1	Precision	0.03834096937545213
+Helpdesk	Tax	fold_1	F1 - Score(macro)	0.04491102532718199
+Helpdesk	Tax	fold_1	F1 - Score(micro)	0.2933579335793358
+Helpdesk	Theis	fold_0	Accuracy	0.4907673368896184
+Helpdesk	Theis	fold_0	Recall	0.1505101197238294
+Helpdesk	Theis	fold_0	Precision	0.12942648010551927
+Helpdesk	Theis	fold_0	F1 - Score(macro)	0.13710071608829852
+Helpdesk	Theis	fold_0	F1 - Score(micro)	0.4907673368896184
+Helpdesk	Theis	fold_1	Accuracy	0.4985649856498565
+Helpdesk	Theis	fold_1	Recall	0.13887651002065438
+Helpdesk	Theis	fold_1	Precision	0.12041719295458694
+Helpdesk	Theis	fold_1	F1 - Score(macro)	0.12665523540600987
+Helpdesk	Theis	fold_1	F1 - Score(micro)	0.4985649856498565

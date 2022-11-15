@@ -1,0 +1,656 @@
+dataset	approach	fold	activity	metric	value
+Helpdesk	Buksh	fold_0	Take in charge ticket	Accuracy	0.06854838709677419
+Helpdesk	Buksh	fold_0	Take in charge ticket	Recall	0.022849462365591395
+Helpdesk	Buksh	fold_0	Take in charge ticket	Precision	0.3333333333333333
+Helpdesk	Buksh	fold_0	Take in charge ticket	F1 - Score(macro)	0.04276729559748427
+Helpdesk	Buksh	fold_0	Take in charge ticket	F1 - Score(micro)	0.06854838709677419
+Helpdesk	Buksh	fold_0	Resolve ticket	Accuracy	0.6928746928746928
+Helpdesk	Buksh	fold_0	Resolve ticket	Recall	0.23095823095823095
+Helpdesk	Buksh	fold_0	Resolve ticket	Precision	0.3333333333333333
+Helpdesk	Buksh	fold_0	Resolve ticket	F1 - Score(macro)	0.2728592162554426
+Helpdesk	Buksh	fold_0	Resolve ticket	F1 - Score(micro)	0.6928746928746928
+Helpdesk	Buksh	fold_0	Closed	Accuracy	0.595625
+Helpdesk	Buksh	fold_0	Closed	Recall	0.19854166666666664
+Helpdesk	Buksh	fold_0	Closed	Precision	0.3333333333333333
+Helpdesk	Buksh	fold_0	Closed	F1 - Score(macro)	0.24885755320537928
+Helpdesk	Buksh	fold_0	Closed	F1 - Score(micro)	0.595625
+Helpdesk	Buksh	fold_0	Assign seriousness	Accuracy	0.0
+Helpdesk	Buksh	fold_0	Assign seriousness	Recall	0.0
+Helpdesk	Buksh	fold_0	Assign seriousness	Precision	0.0
+Helpdesk	Buksh	fold_0	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_0	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_0	Wait	Accuracy	0.0
+Helpdesk	Buksh	fold_0	Wait	Recall	0.0
+Helpdesk	Buksh	fold_0	Wait	Precision	0.0
+Helpdesk	Buksh	fold_0	Wait	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_0	Wait	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_0	Require upgrade	Accuracy	0.0
+Helpdesk	Buksh	fold_0	Require upgrade	Recall	0.0
+Helpdesk	Buksh	fold_0	Require upgrade	Precision	0.0
+Helpdesk	Buksh	fold_0	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_0	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_0	Create SW anomaly	Accuracy	0.0
+Helpdesk	Buksh	fold_0	Create SW anomaly	Recall	0.0
+Helpdesk	Buksh	fold_0	Create SW anomaly	Precision	0.0
+Helpdesk	Buksh	fold_0	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_0	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_0	Schedule intervention	Accuracy	0.0
+Helpdesk	Buksh	fold_0	Schedule intervention	Recall	0.0
+Helpdesk	Buksh	fold_0	Schedule intervention	Precision	0.0
+Helpdesk	Buksh	fold_0	Schedule intervention	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_0	Schedule intervention	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_0	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Buksh	fold_0	Resolve SW anomaly	Recall	0.0
+Helpdesk	Buksh	fold_0	Resolve SW anomaly	Precision	0.0
+Helpdesk	Buksh	fold_0	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_0	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_1	Resolve ticket	Accuracy	0.6888232397833579
+Helpdesk	Buksh	fold_1	Resolve ticket	Recall	0.22960774659445263
+Helpdesk	Buksh	fold_1	Resolve ticket	Precision	0.3333333333333333
+Helpdesk	Buksh	fold_1	Resolve ticket	F1 - Score(macro)	0.2719144800777454
+Helpdesk	Buksh	fold_1	Resolve ticket	F1 - Score(micro)	0.6888232397833579
+Helpdesk	Buksh	fold_1	Closed	Accuracy	0.6093257718966604
+Helpdesk	Buksh	fold_1	Closed	Recall	0.20310859063222012
+Helpdesk	Buksh	fold_1	Closed	Precision	0.3333333333333333
+Helpdesk	Buksh	fold_1	Closed	F1 - Score(macro)	0.2524145131819368
+Helpdesk	Buksh	fold_1	Closed	F1 - Score(micro)	0.6093257718966604
+Helpdesk	Buksh	fold_1	Take in charge ticket	Accuracy	0.0900562851782364
+Helpdesk	Buksh	fold_1	Take in charge ticket	Recall	0.0300187617260788
+Helpdesk	Buksh	fold_1	Take in charge ticket	Precision	0.3333333333333333
+Helpdesk	Buksh	fold_1	Take in charge ticket	F1 - Score(macro)	0.05507745266781411
+Helpdesk	Buksh	fold_1	Take in charge ticket	F1 - Score(micro)	0.09005628517823638
+Helpdesk	Buksh	fold_1	Wait	Accuracy	0.0
+Helpdesk	Buksh	fold_1	Wait	Recall	0.0
+Helpdesk	Buksh	fold_1	Wait	Precision	0.0
+Helpdesk	Buksh	fold_1	Wait	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_1	Wait	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_1	Create SW anomaly	Accuracy	0.0
+Helpdesk	Buksh	fold_1	Create SW anomaly	Recall	0.0
+Helpdesk	Buksh	fold_1	Create SW anomaly	Precision	0.0
+Helpdesk	Buksh	fold_1	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_1	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_1	Require upgrade	Accuracy	0.0
+Helpdesk	Buksh	fold_1	Require upgrade	Recall	0.0
+Helpdesk	Buksh	fold_1	Require upgrade	Precision	0.0
+Helpdesk	Buksh	fold_1	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_1	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_1	Assign seriousness	Accuracy	0.0
+Helpdesk	Buksh	fold_1	Assign seriousness	Recall	0.0
+Helpdesk	Buksh	fold_1	Assign seriousness	Precision	0.0
+Helpdesk	Buksh	fold_1	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_1	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_1	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Buksh	fold_1	Resolve SW anomaly	Recall	0.0
+Helpdesk	Buksh	fold_1	Resolve SW anomaly	Precision	0.0
+Helpdesk	Buksh	fold_1	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_1	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_1	RESOLVED	Accuracy	0.0
+Helpdesk	Buksh	fold_1	RESOLVED	Recall	0.0
+Helpdesk	Buksh	fold_1	RESOLVED	Precision	0.0
+Helpdesk	Buksh	fold_1	RESOLVED	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_1	RESOLVED	F1 - Score(micro)	0.0
+Helpdesk	Buksh	fold_1	INVALID	Accuracy	0.0
+Helpdesk	Buksh	fold_1	INVALID	Recall	0.0
+Helpdesk	Buksh	fold_1	INVALID	Precision	0.0
+Helpdesk	Buksh	fold_1	INVALID	F1 - Score(macro)	0.0
+Helpdesk	Buksh	fold_1	INVALID	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_0	Take in charge ticket	Accuracy	0.0
+Helpdesk	Camargo	fold_0	Take in charge ticket	Recall	0.0
+Helpdesk	Camargo	fold_0	Take in charge ticket	Precision	0.0
+Helpdesk	Camargo	fold_0	Take in charge ticket	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_0	Take in charge ticket	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_0	Resolve ticket	Accuracy	0.6638820638820638
+Helpdesk	Camargo	fold_0	Resolve ticket	Recall	0.3319410319410319
+Helpdesk	Camargo	fold_0	Resolve ticket	Precision	0.5
+Helpdesk	Camargo	fold_0	Resolve ticket	F1 - Score(macro)	0.39899586532782044
+Helpdesk	Camargo	fold_0	Resolve ticket	F1 - Score(micro)	0.6638820638820638
+Helpdesk	Camargo	fold_0	Closed	Accuracy	0.921875
+Helpdesk	Camargo	fold_0	Closed	Recall	0.3072916666666667
+Helpdesk	Camargo	fold_0	Closed	Precision	0.3333333333333333
+Helpdesk	Camargo	fold_0	Closed	F1 - Score(macro)	0.31978319783197834
+Helpdesk	Camargo	fold_0	Closed	F1 - Score(micro)	0.921875
+Helpdesk	Camargo	fold_0	Wait	Accuracy	0.0
+Helpdesk	Camargo	fold_0	Wait	Recall	0.0
+Helpdesk	Camargo	fold_0	Wait	Precision	0.0
+Helpdesk	Camargo	fold_0	Wait	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_0	Wait	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_0	Create SW anomaly	Accuracy	0.0
+Helpdesk	Camargo	fold_0	Create SW anomaly	Recall	0.0
+Helpdesk	Camargo	fold_0	Create SW anomaly	Precision	0.0
+Helpdesk	Camargo	fold_0	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_0	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_0	Require upgrade	Accuracy	0.0
+Helpdesk	Camargo	fold_0	Require upgrade	Recall	0.0
+Helpdesk	Camargo	fold_0	Require upgrade	Precision	0.0
+Helpdesk	Camargo	fold_0	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_0	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_0	Assign seriousness	Accuracy	0.0
+Helpdesk	Camargo	fold_0	Assign seriousness	Recall	0.0
+Helpdesk	Camargo	fold_0	Assign seriousness	Precision	0.0
+Helpdesk	Camargo	fold_0	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_0	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_0	Schedule intervention	Accuracy	0.0
+Helpdesk	Camargo	fold_0	Schedule intervention	Recall	0.0
+Helpdesk	Camargo	fold_0	Schedule intervention	Precision	0.0
+Helpdesk	Camargo	fold_0	Schedule intervention	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_0	Schedule intervention	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_0	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Camargo	fold_0	Resolve SW anomaly	Recall	0.0
+Helpdesk	Camargo	fold_0	Resolve SW anomaly	Precision	0.0
+Helpdesk	Camargo	fold_0	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_0	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_1	Resolve ticket	Accuracy	0.7853274249138356
+Helpdesk	Camargo	fold_1	Resolve ticket	Recall	0.26177580830461183
+Helpdesk	Camargo	fold_1	Resolve ticket	Precision	0.3333333333333333
+Helpdesk	Camargo	fold_1	Resolve ticket	F1 - Score(macro)	0.29325243610957896
+Helpdesk	Camargo	fold_1	Resolve ticket	F1 - Score(micro)	0.7853274249138356
+Helpdesk	Camargo	fold_1	Closed	Accuracy	0.6717076244486453
+Helpdesk	Camargo	fold_1	Closed	Recall	0.22390254148288177
+Helpdesk	Camargo	fold_1	Closed	Precision	0.3333333333333333
+Helpdesk	Camargo	fold_1	Closed	F1 - Score(macro)	0.2678728483477824
+Helpdesk	Camargo	fold_1	Closed	F1 - Score(micro)	0.6717076244486453
+Helpdesk	Camargo	fold_1	Wait	Accuracy	0.0
+Helpdesk	Camargo	fold_1	Wait	Recall	0.0
+Helpdesk	Camargo	fold_1	Wait	Precision	0.0
+Helpdesk	Camargo	fold_1	Wait	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_1	Wait	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_1	Take in charge ticket	Accuracy	0.0
+Helpdesk	Camargo	fold_1	Take in charge ticket	Recall	0.0
+Helpdesk	Camargo	fold_1	Take in charge ticket	Precision	0.0
+Helpdesk	Camargo	fold_1	Take in charge ticket	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_1	Take in charge ticket	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_1	Require upgrade	Accuracy	0.0
+Helpdesk	Camargo	fold_1	Require upgrade	Recall	0.0
+Helpdesk	Camargo	fold_1	Require upgrade	Precision	0.0
+Helpdesk	Camargo	fold_1	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_1	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_1	Assign seriousness	Accuracy	0.0
+Helpdesk	Camargo	fold_1	Assign seriousness	Recall	0.0
+Helpdesk	Camargo	fold_1	Assign seriousness	Precision	0.0
+Helpdesk	Camargo	fold_1	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_1	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_1	Create SW anomaly	Accuracy	0.0
+Helpdesk	Camargo	fold_1	Create SW anomaly	Recall	0.0
+Helpdesk	Camargo	fold_1	Create SW anomaly	Precision	0.0
+Helpdesk	Camargo	fold_1	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_1	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_1	RESOLVED	Accuracy	0.0
+Helpdesk	Camargo	fold_1	RESOLVED	Recall	0.0
+Helpdesk	Camargo	fold_1	RESOLVED	Precision	0.0
+Helpdesk	Camargo	fold_1	RESOLVED	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_1	RESOLVED	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_1	INVALID	Accuracy	0.0
+Helpdesk	Camargo	fold_1	INVALID	Recall	0.0
+Helpdesk	Camargo	fold_1	INVALID	Precision	0.0
+Helpdesk	Camargo	fold_1	INVALID	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_1	INVALID	F1 - Score(micro)	0.0
+Helpdesk	Camargo	fold_1	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Camargo	fold_1	Resolve SW anomaly	Recall	0.0
+Helpdesk	Camargo	fold_1	Resolve SW anomaly	Precision	0.0
+Helpdesk	Camargo	fold_1	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Camargo	fold_1	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_0	Take in charge ticket	Accuracy	0.0
+Helpdesk	Khan	fold_0	Take in charge ticket	Recall	0.0
+Helpdesk	Khan	fold_0	Take in charge ticket	Precision	0.0
+Helpdesk	Khan	fold_0	Take in charge ticket	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_0	Take in charge ticket	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_0	Resolve ticket	Accuracy	0.0
+Helpdesk	Khan	fold_0	Resolve ticket	Recall	0.0
+Helpdesk	Khan	fold_0	Resolve ticket	Precision	0.0
+Helpdesk	Khan	fold_0	Resolve ticket	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_0	Resolve ticket	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_0	Closed	Accuracy	0.06722151088348272
+Helpdesk	Khan	fold_0	Closed	Recall	0.02240717029449424
+Helpdesk	Khan	fold_0	Closed	Precision	0.3333333333333333
+Helpdesk	Khan	fold_0	Closed	F1 - Score(macro)	0.04199160167966407
+Helpdesk	Khan	fold_0	Closed	F1 - Score(micro)	0.06722151088348272
+Helpdesk	Khan	fold_0	Assign seriousness	Accuracy	0.0
+Helpdesk	Khan	fold_0	Assign seriousness	Recall	0.0
+Helpdesk	Khan	fold_0	Assign seriousness	Precision	0.0
+Helpdesk	Khan	fold_0	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_0	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_0	Wait	Accuracy	0.22185430463576158
+Helpdesk	Khan	fold_0	Wait	Recall	0.11092715231788079
+Helpdesk	Khan	fold_0	Wait	Precision	0.5
+Helpdesk	Khan	fold_0	Wait	F1 - Score(macro)	0.1815718157181572
+Helpdesk	Khan	fold_0	Wait	F1 - Score(micro)	0.22185430463576158
+Helpdesk	Khan	fold_0	Require upgrade	Accuracy	0.0
+Helpdesk	Khan	fold_0	Require upgrade	Recall	0.0
+Helpdesk	Khan	fold_0	Require upgrade	Precision	0.0
+Helpdesk	Khan	fold_0	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_0	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_0	Create SW anomaly	Accuracy	0.0
+Helpdesk	Khan	fold_0	Create SW anomaly	Recall	0.0
+Helpdesk	Khan	fold_0	Create SW anomaly	Precision	0.0
+Helpdesk	Khan	fold_0	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_0	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_0	Schedule intervention	Accuracy	0.0
+Helpdesk	Khan	fold_0	Schedule intervention	Recall	0.0
+Helpdesk	Khan	fold_0	Schedule intervention	Precision	0.0
+Helpdesk	Khan	fold_0	Schedule intervention	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_0	Schedule intervention	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_0	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Khan	fold_0	Resolve SW anomaly	Recall	0.0
+Helpdesk	Khan	fold_0	Resolve SW anomaly	Precision	0.0
+Helpdesk	Khan	fold_0	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_0	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_1	Resolve ticket	Accuracy	0.06768023540951447
+Helpdesk	Khan	fold_1	Resolve ticket	Recall	0.016920058852378617
+Helpdesk	Khan	fold_1	Resolve ticket	Precision	0.25
+Helpdesk	Khan	fold_1	Resolve ticket	F1 - Score(macro)	0.0316949931097841
+Helpdesk	Khan	fold_1	Resolve ticket	F1 - Score(micro)	0.06768023540951447
+Helpdesk	Khan	fold_1	Closed	Accuracy	0.7222574508560557
+Helpdesk	Khan	fold_1	Closed	Recall	0.18056436271401394
+Helpdesk	Khan	fold_1	Closed	Precision	0.25
+Helpdesk	Khan	fold_1	Closed	F1 - Score(macro)	0.20968335787923417
+Helpdesk	Khan	fold_1	Closed	F1 - Score(micro)	0.7222574508560557
+Helpdesk	Khan	fold_1	Take in charge ticket	Accuracy	0.0
+Helpdesk	Khan	fold_1	Take in charge ticket	Recall	0.0
+Helpdesk	Khan	fold_1	Take in charge ticket	Precision	0.0
+Helpdesk	Khan	fold_1	Take in charge ticket	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_1	Take in charge ticket	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_1	Wait	Accuracy	0.0
+Helpdesk	Khan	fold_1	Wait	Recall	0.0
+Helpdesk	Khan	fold_1	Wait	Precision	0.0
+Helpdesk	Khan	fold_1	Wait	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_1	Wait	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_1	Create SW anomaly	Accuracy	0.0
+Helpdesk	Khan	fold_1	Create SW anomaly	Recall	0.0
+Helpdesk	Khan	fold_1	Create SW anomaly	Precision	0.0
+Helpdesk	Khan	fold_1	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_1	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_1	Require upgrade	Accuracy	0.65
+Helpdesk	Khan	fold_1	Require upgrade	Recall	0.21666666666666667
+Helpdesk	Khan	fold_1	Require upgrade	Precision	0.3333333333333333
+Helpdesk	Khan	fold_1	Require upgrade	F1 - Score(macro)	0.26262626262626265
+Helpdesk	Khan	fold_1	Require upgrade	F1 - Score(micro)	0.65
+Helpdesk	Khan	fold_1	Assign seriousness	Accuracy	0.0
+Helpdesk	Khan	fold_1	Assign seriousness	Recall	0.0
+Helpdesk	Khan	fold_1	Assign seriousness	Precision	0.0
+Helpdesk	Khan	fold_1	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_1	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Khan	fold_1	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Khan	fold_1	Resolve SW anomaly	Recall	0.0
+Helpdesk	Khan	fold_1	Resolve SW anomaly	Precision	0.0
+Helpdesk	Khan	fold_1	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Khan	fold_1	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_0	Take in charge ticket	Accuracy	0.0
+Helpdesk	Mauro	fold_0	Take in charge ticket	Recall	0.0
+Helpdesk	Mauro	fold_0	Take in charge ticket	Precision	0.0
+Helpdesk	Mauro	fold_0	Take in charge ticket	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_0	Take in charge ticket	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_0	Resolve ticket	Accuracy	0.0
+Helpdesk	Mauro	fold_0	Resolve ticket	Recall	0.0
+Helpdesk	Mauro	fold_0	Resolve ticket	Precision	0.0
+Helpdesk	Mauro	fold_0	Resolve ticket	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_0	Resolve ticket	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_0	Closed	Accuracy	0.0
+Helpdesk	Mauro	fold_0	Closed	Recall	0.0
+Helpdesk	Mauro	fold_0	Closed	Precision	0.0
+Helpdesk	Mauro	fold_0	Closed	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_0	Closed	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_0	Assign seriousness	Accuracy	0.0
+Helpdesk	Mauro	fold_0	Assign seriousness	Recall	0.0
+Helpdesk	Mauro	fold_0	Assign seriousness	Precision	0.0
+Helpdesk	Mauro	fold_0	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_0	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_0	Wait	Accuracy	0.0
+Helpdesk	Mauro	fold_0	Wait	Recall	0.0
+Helpdesk	Mauro	fold_0	Wait	Precision	0.0
+Helpdesk	Mauro	fold_0	Wait	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_0	Wait	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_0	Require upgrade	Accuracy	0.0
+Helpdesk	Mauro	fold_0	Require upgrade	Recall	0.0
+Helpdesk	Mauro	fold_0	Require upgrade	Precision	0.0
+Helpdesk	Mauro	fold_0	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_0	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_0	Create SW anomaly	Accuracy	1.0
+Helpdesk	Mauro	fold_0	Create SW anomaly	Recall	1.0
+Helpdesk	Mauro	fold_0	Create SW anomaly	Precision	1.0
+Helpdesk	Mauro	fold_0	Create SW anomaly	F1 - Score(macro)	1.0
+Helpdesk	Mauro	fold_0	Create SW anomaly	F1 - Score(micro)	1.0
+Helpdesk	Mauro	fold_0	Schedule intervention	Accuracy	0.0
+Helpdesk	Mauro	fold_0	Schedule intervention	Recall	0.0
+Helpdesk	Mauro	fold_0	Schedule intervention	Precision	0.0
+Helpdesk	Mauro	fold_0	Schedule intervention	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_0	Schedule intervention	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_0	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Mauro	fold_0	Resolve SW anomaly	Recall	0.0
+Helpdesk	Mauro	fold_0	Resolve SW anomaly	Precision	0.0
+Helpdesk	Mauro	fold_0	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_0	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_1	Resolve ticket	Accuracy	0.0
+Helpdesk	Mauro	fold_1	Resolve ticket	Recall	0.0
+Helpdesk	Mauro	fold_1	Resolve ticket	Precision	0.0
+Helpdesk	Mauro	fold_1	Resolve ticket	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_1	Resolve ticket	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_1	Closed	Accuracy	0.008821676118462508
+Helpdesk	Mauro	fold_1	Closed	Recall	0.004410838059231254
+Helpdesk	Mauro	fold_1	Closed	Precision	0.5
+Helpdesk	Mauro	fold_1	Closed	F1 - Score(macro)	0.008744534665833853
+Helpdesk	Mauro	fold_1	Closed	F1 - Score(micro)	0.008821676118462508
+Helpdesk	Mauro	fold_1	Take in charge ticket	Accuracy	0.0
+Helpdesk	Mauro	fold_1	Take in charge ticket	Recall	0.0
+Helpdesk	Mauro	fold_1	Take in charge ticket	Precision	0.0
+Helpdesk	Mauro	fold_1	Take in charge ticket	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_1	Take in charge ticket	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_1	Wait	Accuracy	0.0
+Helpdesk	Mauro	fold_1	Wait	Recall	0.0
+Helpdesk	Mauro	fold_1	Wait	Precision	0.0
+Helpdesk	Mauro	fold_1	Wait	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_1	Wait	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_1	Create SW anomaly	Accuracy	0.0
+Helpdesk	Mauro	fold_1	Create SW anomaly	Recall	0.0
+Helpdesk	Mauro	fold_1	Create SW anomaly	Precision	0.0
+Helpdesk	Mauro	fold_1	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_1	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_1	Require upgrade	Accuracy	0.0
+Helpdesk	Mauro	fold_1	Require upgrade	Recall	0.0
+Helpdesk	Mauro	fold_1	Require upgrade	Precision	0.0
+Helpdesk	Mauro	fold_1	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_1	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_1	Assign seriousness	Accuracy	0.0
+Helpdesk	Mauro	fold_1	Assign seriousness	Recall	0.0
+Helpdesk	Mauro	fold_1	Assign seriousness	Precision	0.0
+Helpdesk	Mauro	fold_1	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_1	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_1	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Mauro	fold_1	Resolve SW anomaly	Recall	0.0
+Helpdesk	Mauro	fold_1	Resolve SW anomaly	Precision	0.0
+Helpdesk	Mauro	fold_1	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_1	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_1	RESOLVED	Accuracy	0.0
+Helpdesk	Mauro	fold_1	RESOLVED	Recall	0.0
+Helpdesk	Mauro	fold_1	RESOLVED	Precision	0.0
+Helpdesk	Mauro	fold_1	RESOLVED	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_1	RESOLVED	F1 - Score(micro)	0.0
+Helpdesk	Mauro	fold_1	INVALID	Accuracy	0.0
+Helpdesk	Mauro	fold_1	INVALID	Recall	0.0
+Helpdesk	Mauro	fold_1	INVALID	Precision	0.0
+Helpdesk	Mauro	fold_1	INVALID	F1 - Score(macro)	0.0
+Helpdesk	Mauro	fold_1	INVALID	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Take in charge ticket	Accuracy	0.0020161290322580645
+Helpdesk	Pasquadibisceglie	fold_0	Take in charge ticket	Recall	0.0006720430107526881
+Helpdesk	Pasquadibisceglie	fold_0	Take in charge ticket	Precision	0.3333333333333333
+Helpdesk	Pasquadibisceglie	fold_0	Take in charge ticket	F1 - Score(macro)	0.001341381623071764
+Helpdesk	Pasquadibisceglie	fold_0	Take in charge ticket	F1 - Score(micro)	0.0020161290322580645
+Helpdesk	Pasquadibisceglie	fold_0	Resolve ticket	Accuracy	0.8692874692874692
+Helpdesk	Pasquadibisceglie	fold_0	Resolve ticket	Recall	0.2173218673218673
+Helpdesk	Pasquadibisceglie	fold_0	Resolve ticket	Precision	0.25
+Helpdesk	Pasquadibisceglie	fold_0	Resolve ticket	F1 - Score(macro)	0.23251840168243953
+Helpdesk	Pasquadibisceglie	fold_0	Resolve ticket	F1 - Score(micro)	0.8692874692874692
+Helpdesk	Pasquadibisceglie	fold_0	Closed	Accuracy	0.348125
+Helpdesk	Pasquadibisceglie	fold_0	Closed	Recall	0.11604166666666667
+Helpdesk	Pasquadibisceglie	fold_0	Closed	Precision	0.3333333333333333
+Helpdesk	Pasquadibisceglie	fold_0	Closed	F1 - Score(macro)	0.172152681193015
+Helpdesk	Pasquadibisceglie	fold_0	Closed	F1 - Score(micro)	0.348125
+Helpdesk	Pasquadibisceglie	fold_0	Assign seriousness	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Assign seriousness	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Assign seriousness	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Wait	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Wait	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Wait	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Wait	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Wait	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Require upgrade	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Require upgrade	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Require upgrade	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Create SW anomaly	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Create SW anomaly	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Create SW anomaly	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Schedule intervention	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Schedule intervention	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Schedule intervention	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Schedule intervention	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Schedule intervention	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Resolve SW anomaly	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Resolve SW anomaly	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_0	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Resolve ticket	Accuracy	0.8064992614475628
+Helpdesk	Pasquadibisceglie	fold_1	Resolve ticket	Recall	0.2688330871491876
+Helpdesk	Pasquadibisceglie	fold_1	Resolve ticket	Precision	0.3333333333333333
+Helpdesk	Pasquadibisceglie	fold_1	Resolve ticket	F1 - Score(macro)	0.29762878168438267
+Helpdesk	Pasquadibisceglie	fold_1	Resolve ticket	F1 - Score(micro)	0.8064992614475628
+Helpdesk	Pasquadibisceglie	fold_1	Closed	Accuracy	0.5671077504725898
+Helpdesk	Pasquadibisceglie	fold_1	Closed	Recall	0.1890359168241966
+Helpdesk	Pasquadibisceglie	fold_1	Closed	Precision	0.3333333333333333
+Helpdesk	Pasquadibisceglie	fold_1	Closed	F1 - Score(macro)	0.24125452352231602
+Helpdesk	Pasquadibisceglie	fold_1	Closed	F1 - Score(micro)	0.5671077504725898
+Helpdesk	Pasquadibisceglie	fold_1	Take in charge ticket	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Take in charge ticket	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Take in charge ticket	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Take in charge ticket	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Take in charge ticket	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Wait	Accuracy	0.001589825119236884
+Helpdesk	Pasquadibisceglie	fold_1	Wait	Recall	0.0005299417064122947
+Helpdesk	Pasquadibisceglie	fold_1	Wait	Precision	0.3333333333333333
+Helpdesk	Pasquadibisceglie	fold_1	Wait	F1 - Score(macro)	0.0010582010582010583
+Helpdesk	Pasquadibisceglie	fold_1	Wait	F1 - Score(micro)	0.001589825119236884
+Helpdesk	Pasquadibisceglie	fold_1	Create SW anomaly	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Create SW anomaly	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Create SW anomaly	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Require upgrade	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Require upgrade	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Require upgrade	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Assign seriousness	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Assign seriousness	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Assign seriousness	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Resolve SW anomaly	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Resolve SW anomaly	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	RESOLVED	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_1	RESOLVED	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_1	RESOLVED	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_1	RESOLVED	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	RESOLVED	F1 - Score(micro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	INVALID	Accuracy	0.0
+Helpdesk	Pasquadibisceglie	fold_1	INVALID	Recall	0.0
+Helpdesk	Pasquadibisceglie	fold_1	INVALID	Precision	0.0
+Helpdesk	Pasquadibisceglie	fold_1	INVALID	F1 - Score(macro)	0.0
+Helpdesk	Pasquadibisceglie	fold_1	INVALID	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_0	Take in charge ticket	Accuracy	0.0
+Helpdesk	Tax	fold_0	Take in charge ticket	Recall	0.0
+Helpdesk	Tax	fold_0	Take in charge ticket	Precision	0.0
+Helpdesk	Tax	fold_0	Take in charge ticket	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_0	Take in charge ticket	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_0	Resolve ticket	Accuracy	0.0
+Helpdesk	Tax	fold_0	Resolve ticket	Recall	0.0
+Helpdesk	Tax	fold_0	Resolve ticket	Precision	0.0
+Helpdesk	Tax	fold_0	Resolve ticket	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_0	Resolve ticket	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_0	Closed	Accuracy	0.0
+Helpdesk	Tax	fold_0	Closed	Recall	0.0
+Helpdesk	Tax	fold_0	Closed	Precision	0.0
+Helpdesk	Tax	fold_0	Closed	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_0	Closed	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_0	Assign seriousness	Accuracy	0.0
+Helpdesk	Tax	fold_0	Assign seriousness	Recall	0.0
+Helpdesk	Tax	fold_0	Assign seriousness	Precision	0.0
+Helpdesk	Tax	fold_0	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_0	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_0	Wait	Accuracy	0.0
+Helpdesk	Tax	fold_0	Wait	Recall	0.0
+Helpdesk	Tax	fold_0	Wait	Precision	0.0
+Helpdesk	Tax	fold_0	Wait	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_0	Wait	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_0	Require upgrade	Accuracy	0.0
+Helpdesk	Tax	fold_0	Require upgrade	Recall	0.0
+Helpdesk	Tax	fold_0	Require upgrade	Precision	0.0
+Helpdesk	Tax	fold_0	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_0	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_0	Create SW anomaly	Accuracy	0.0
+Helpdesk	Tax	fold_0	Create SW anomaly	Recall	0.0
+Helpdesk	Tax	fold_0	Create SW anomaly	Precision	0.0
+Helpdesk	Tax	fold_0	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_0	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_0	Schedule intervention	Accuracy	0.0
+Helpdesk	Tax	fold_0	Schedule intervention	Recall	0.0
+Helpdesk	Tax	fold_0	Schedule intervention	Precision	0.0
+Helpdesk	Tax	fold_0	Schedule intervention	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_0	Schedule intervention	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_0	Resolve SW anomaly	Accuracy	0.3333333333333333
+Helpdesk	Tax	fold_0	Resolve SW anomaly	Recall	0.1111111111111111
+Helpdesk	Tax	fold_0	Resolve SW anomaly	Precision	0.3333333333333333
+Helpdesk	Tax	fold_0	Resolve SW anomaly	F1 - Score(macro)	0.16666666666666666
+Helpdesk	Tax	fold_0	Resolve SW anomaly	F1 - Score(micro)	0.3333333333333333
+Helpdesk	Tax	fold_1	Resolve ticket	Accuracy	0.7045790251107829
+Helpdesk	Tax	fold_1	Resolve ticket	Recall	0.23485967503692762
+Helpdesk	Tax	fold_1	Resolve ticket	Precision	0.3333333333333333
+Helpdesk	Tax	fold_1	Resolve ticket	F1 - Score(macro)	0.2755632582322357
+Helpdesk	Tax	fold_1	Resolve ticket	F1 - Score(micro)	0.7045790251107829
+Helpdesk	Tax	fold_1	Closed	Accuracy	0.0
+Helpdesk	Tax	fold_1	Closed	Recall	0.0
+Helpdesk	Tax	fold_1	Closed	Precision	0.0
+Helpdesk	Tax	fold_1	Closed	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_1	Closed	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_1	Take in charge ticket	Accuracy	0.0
+Helpdesk	Tax	fold_1	Take in charge ticket	Recall	0.0
+Helpdesk	Tax	fold_1	Take in charge ticket	Precision	0.0
+Helpdesk	Tax	fold_1	Take in charge ticket	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_1	Take in charge ticket	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_1	Wait	Accuracy	0.0
+Helpdesk	Tax	fold_1	Wait	Recall	0.0
+Helpdesk	Tax	fold_1	Wait	Precision	0.0
+Helpdesk	Tax	fold_1	Wait	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_1	Wait	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_1	Create SW anomaly	Accuracy	0.0
+Helpdesk	Tax	fold_1	Create SW anomaly	Recall	0.0
+Helpdesk	Tax	fold_1	Create SW anomaly	Precision	0.0
+Helpdesk	Tax	fold_1	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_1	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_1	Require upgrade	Accuracy	0.0
+Helpdesk	Tax	fold_1	Require upgrade	Recall	0.0
+Helpdesk	Tax	fold_1	Require upgrade	Precision	0.0
+Helpdesk	Tax	fold_1	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_1	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_1	Assign seriousness	Accuracy	0.0
+Helpdesk	Tax	fold_1	Assign seriousness	Recall	0.0
+Helpdesk	Tax	fold_1	Assign seriousness	Precision	0.0
+Helpdesk	Tax	fold_1	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_1	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_1	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Tax	fold_1	Resolve SW anomaly	Recall	0.0
+Helpdesk	Tax	fold_1	Resolve SW anomaly	Precision	0.0
+Helpdesk	Tax	fold_1	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_1	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_1	RESOLVED	Accuracy	0.0
+Helpdesk	Tax	fold_1	RESOLVED	Recall	0.0
+Helpdesk	Tax	fold_1	RESOLVED	Precision	0.0
+Helpdesk	Tax	fold_1	RESOLVED	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_1	RESOLVED	F1 - Score(micro)	0.0
+Helpdesk	Tax	fold_1	INVALID	Accuracy	0.0
+Helpdesk	Tax	fold_1	INVALID	Recall	0.0
+Helpdesk	Tax	fold_1	INVALID	Precision	0.0
+Helpdesk	Tax	fold_1	INVALID	F1 - Score(macro)	0.0
+Helpdesk	Tax	fold_1	INVALID	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_0	Take in charge ticket	Accuracy	0.06854838709677419
+Helpdesk	Theis	fold_0	Take in charge ticket	Recall	0.022849462365591395
+Helpdesk	Theis	fold_0	Take in charge ticket	Precision	0.3333333333333333
+Helpdesk	Theis	fold_0	Take in charge ticket	F1 - Score(macro)	0.04276729559748427
+Helpdesk	Theis	fold_0	Take in charge ticket	F1 - Score(micro)	0.06854838709677419
+Helpdesk	Theis	fold_0	Resolve ticket	Accuracy	0.6904176904176904
+Helpdesk	Theis	fold_0	Resolve ticket	Recall	0.23013923013923013
+Helpdesk	Theis	fold_0	Resolve ticket	Precision	0.3333333333333333
+Helpdesk	Theis	fold_0	Resolve ticket	F1 - Score(macro)	0.27228682170542634
+Helpdesk	Theis	fold_0	Resolve ticket	F1 - Score(micro)	0.6904176904176904
+Helpdesk	Theis	fold_0	Closed	Accuracy	0.595625
+Helpdesk	Theis	fold_0	Closed	Recall	0.19854166666666664
+Helpdesk	Theis	fold_0	Closed	Precision	0.3333333333333333
+Helpdesk	Theis	fold_0	Closed	F1 - Score(macro)	0.24885755320537928
+Helpdesk	Theis	fold_0	Closed	F1 - Score(micro)	0.595625
+Helpdesk	Theis	fold_0	Assign seriousness	Accuracy	0.0
+Helpdesk	Theis	fold_0	Assign seriousness	Recall	0.0
+Helpdesk	Theis	fold_0	Assign seriousness	Precision	0.0
+Helpdesk	Theis	fold_0	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_0	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_0	Wait	Accuracy	0.0
+Helpdesk	Theis	fold_0	Wait	Recall	0.0
+Helpdesk	Theis	fold_0	Wait	Precision	0.0
+Helpdesk	Theis	fold_0	Wait	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_0	Wait	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_0	Require upgrade	Accuracy	0.0
+Helpdesk	Theis	fold_0	Require upgrade	Recall	0.0
+Helpdesk	Theis	fold_0	Require upgrade	Precision	0.0
+Helpdesk	Theis	fold_0	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_0	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_0	Create SW anomaly	Accuracy	0.0
+Helpdesk	Theis	fold_0	Create SW anomaly	Recall	0.0
+Helpdesk	Theis	fold_0	Create SW anomaly	Precision	0.0
+Helpdesk	Theis	fold_0	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_0	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_0	Schedule intervention	Accuracy	0.0
+Helpdesk	Theis	fold_0	Schedule intervention	Recall	0.0
+Helpdesk	Theis	fold_0	Schedule intervention	Precision	0.0
+Helpdesk	Theis	fold_0	Schedule intervention	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_0	Schedule intervention	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_0	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Theis	fold_0	Resolve SW anomaly	Recall	0.0
+Helpdesk	Theis	fold_0	Resolve SW anomaly	Precision	0.0
+Helpdesk	Theis	fold_0	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_0	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_1	Resolve ticket	Accuracy	0.7006400787789266
+Helpdesk	Theis	fold_1	Resolve ticket	Recall	0.2335466929263089
+Helpdesk	Theis	fold_1	Resolve ticket	Precision	0.3333333333333333
+Helpdesk	Theis	fold_1	Resolve ticket	F1 - Score(macro)	0.2746574020459371
+Helpdesk	Theis	fold_1	Resolve ticket	F1 - Score(micro)	0.7006400787789266
+Helpdesk	Theis	fold_1	Closed	Accuracy	0.6093257718966604
+Helpdesk	Theis	fold_1	Closed	Recall	0.20310859063222012
+Helpdesk	Theis	fold_1	Closed	Precision	0.3333333333333333
+Helpdesk	Theis	fold_1	Closed	F1 - Score(macro)	0.2524145131819368
+Helpdesk	Theis	fold_1	Closed	F1 - Score(micro)	0.6093257718966604
+Helpdesk	Theis	fold_1	Take in charge ticket	Accuracy	0.07879924953095685
+Helpdesk	Theis	fold_1	Take in charge ticket	Recall	0.02626641651031895
+Helpdesk	Theis	fold_1	Take in charge ticket	Precision	0.3333333333333333
+Helpdesk	Theis	fold_1	Take in charge ticket	F1 - Score(macro)	0.04869565217391305
+Helpdesk	Theis	fold_1	Take in charge ticket	F1 - Score(micro)	0.07879924953095685
+Helpdesk	Theis	fold_1	Wait	Accuracy	0.0
+Helpdesk	Theis	fold_1	Wait	Recall	0.0
+Helpdesk	Theis	fold_1	Wait	Precision	0.0
+Helpdesk	Theis	fold_1	Wait	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_1	Wait	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_1	Create SW anomaly	Accuracy	0.0
+Helpdesk	Theis	fold_1	Create SW anomaly	Recall	0.0
+Helpdesk	Theis	fold_1	Create SW anomaly	Precision	0.0
+Helpdesk	Theis	fold_1	Create SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_1	Create SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_1	Require upgrade	Accuracy	0.0
+Helpdesk	Theis	fold_1	Require upgrade	Recall	0.0
+Helpdesk	Theis	fold_1	Require upgrade	Precision	0.0
+Helpdesk	Theis	fold_1	Require upgrade	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_1	Require upgrade	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_1	Assign seriousness	Accuracy	0.0
+Helpdesk	Theis	fold_1	Assign seriousness	Recall	0.0
+Helpdesk	Theis	fold_1	Assign seriousness	Precision	0.0
+Helpdesk	Theis	fold_1	Assign seriousness	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_1	Assign seriousness	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_1	Resolve SW anomaly	Accuracy	0.0
+Helpdesk	Theis	fold_1	Resolve SW anomaly	Recall	0.0
+Helpdesk	Theis	fold_1	Resolve SW anomaly	Precision	0.0
+Helpdesk	Theis	fold_1	Resolve SW anomaly	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_1	Resolve SW anomaly	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_1	RESOLVED	Accuracy	0.0
+Helpdesk	Theis	fold_1	RESOLVED	Recall	0.0
+Helpdesk	Theis	fold_1	RESOLVED	Precision	0.0
+Helpdesk	Theis	fold_1	RESOLVED	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_1	RESOLVED	F1 - Score(micro)	0.0
+Helpdesk	Theis	fold_1	INVALID	Accuracy	0.0
+Helpdesk	Theis	fold_1	INVALID	Recall	0.0
+Helpdesk	Theis	fold_1	INVALID	Precision	0.0
+Helpdesk	Theis	fold_1	INVALID	F1 - Score(macro)	0.0
+Helpdesk	Theis	fold_1	INVALID	F1 - Score(micro)	0.0

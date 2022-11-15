@@ -1,0 +1,2 @@
+call activate base
+conda run --no-capture-output -n test_env python tests/persistence/res --original_data  --train_data  --test_data  --result_dir C:\Users\Martin Käppel\AppData\Local\Temp\pytest-of-Martin Käppel\pytest-157\test_run_job0\job_directory --task next_activity --epochs 1 --batch_size 12 --learning_rate 0.001 --gpu 0 

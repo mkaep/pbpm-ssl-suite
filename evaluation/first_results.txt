@@ -1,0 +1,17 @@
+dataset                               BPIC12    BPIC13  BPIC15_1  Helpdesk    Sepsis
+approach          strategy
+Buksh             1_mixed_True_1.2  0.835842  0.529188  0.327085  0.614234  0.519384
+                  2_mixed_True_1.4  0.836326  0.520305  0.332765  0.599557  0.541954
+                  3_mixed_True_1.6  0.838292  0.538071  0.315976  0.616727  0.605682
+                  3_mixed_True_2    0.835989  0.540609  0.344064  0.618111  0.609400
+                  base              0.832336  0.534264  0.320583  0.621158  0.478226
+Camargo           1_mixed_True_1.2       NaN  0.284264       NaN  0.386043       NaN
+                  2_mixed_True_1.4       NaN  0.492386       NaN  0.245084       NaN
+                  3_mixed_True_1.6       NaN  0.512690       NaN  0.202437       NaN
+                  3_mixed_True_2         NaN  0.000000       NaN  0.510939       NaN
+                  base                   NaN  0.420051       NaN  0.185544       NaN
+Pasquadibisceglie 1_mixed_True_1.2       NaN  0.526650       NaN  0.647189  0.605682
+                  2_mixed_True_1.4       NaN  0.527919       NaN  0.698421  0.618163
+                  3_mixed_True_1.6       NaN  0.531726       NaN  0.635004  0.600637
+                  3_mixed_True_2         NaN  0.530457       NaN  0.666020  0.612321
+                  base                   NaN  0.520305       NaN  0.649958  0.604089

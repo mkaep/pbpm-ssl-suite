@@ -1,0 +1,13 @@
+[run]
+omit =
+    # omit the tests themselves
+    tests/*
+    # omit un-testable files
+    ml/main.py
+    ml/visualize/visualizer.py
+
+[report]
+# Regexes for lines to exclude from consideration
+exclude_lines =
+    pragma: no cover
+    raise NotImplementedError
