@@ -169,16 +169,16 @@ def evaluate_correlations(experiment_dir: str, strategies: typing.List[str], dat
 
 
 if __name__ == '__main__':
-    datasets = ['BPIC12', 'BPIC13', 'Helpdesk', 'Sepsis', 'BPIC15_1']
-    datasets_1 = ['BPIC12']
-    approaches = ['Buksh', 'Camargo', 'Pasquadibisceglie', 'Theis']
-    approaches_1 = ['Buksh']
-    strategies = ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '3_mixed_True_2']
-    experiment_dir = r'D:\runs_8\compStudy'
-    metric = 'Accuracy'
+    #atasets = ['BPIC12', 'BPIC13', 'Helpdesk', 'Sepsis', 'BPIC15_1']
+    #datasets_1 = ['BPIC12']
+    #approaches = ['Buksh', 'Camargo', 'Pasquadibisceglie', 'Theis']
+    #approaches_1 = ['Buksh']
+    #strategies = ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '3_mixed_True_2']
+    #experiment_dir = r'D:\runs_8\compStudy'
+    #metric = 'Accuracy'
     #check_significance(experiment_dir, strategies, datasets, approaches, 2, None)
 
-    importer = json.JsonExperimentImporter(r'D:\PBPM_Approaches\experiment\experiments\exp_small.json')
+    importer = json.JsonExperimentImporter(r'/home/ai4-admin/runs/exp_small.json')
     loaded_experiment = importer.load()
     augmentation_pipeline.run_pipeline(loaded_experiment, True)
 
