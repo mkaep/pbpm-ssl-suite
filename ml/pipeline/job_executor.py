@@ -2,6 +2,7 @@ import typing
 import os
 import sys
 import subprocess
+import stat
 
 from ml.core import model
 from ml.persistence import json
@@ -82,6 +83,9 @@ class JobExecutor:
         with open(os.path.join(temp_dir, 'run_job.bat'), 'w', encoding='utf8') as f:
             f.write('call activate base\n')
             f.write(command)
+
+        st = os.stat(os.path.join(temp_dir, 'run_job.bat'))
+        os.chmod(os.path.join(temp_dir, 'run_job.bat'), st.st_mode | stat.S_IEXEC)
 
         try:
             subprocess.run(os.path.join(temp_dir, 'run_job.bat'), shell=True, check=True)
