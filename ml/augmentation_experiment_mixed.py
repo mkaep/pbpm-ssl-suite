@@ -5,8 +5,8 @@ if __name__ == '__main__':
     datasets = [
         model.Dataset('Helpdesk', r'/home/ai4-admin/event_logs/Helpdesk.xes'),
         model.Dataset('Sepsis', r'/home/ai4-admin/event_logs/Sepsis.xes'),
-        model.Dataset('BPIC13', r'/home/ai4-admin/event_logs/BPI_Challenge_2013_closed_problems.xes'),
-        model.Dataset('BPIC13', r'/home/ai4-admin/event_logs/BPI_Challenge_2013_incidents.xes'),
+        model.Dataset('BPIC13_closed', r'/home/ai4-admin/event_logs/BPI_Challenge_2013_closed_problems.xes'),
+        model.Dataset('BPIC13_incidents', r'/home/ai4-admin/event_logs/BPI_Challenge_2013_incidents.xes'),
         model.Dataset('BPIC15_1', r'/home/ai4-admin/event_logs/BPIC15_1.xes'),
         model.Dataset('BPIC12', r'/home/ai4-admin/event_logs/BPI_Challenge_2012.xes'),
         model.Dataset('NASA', r'/home/ai4-admin/event_logs/NASA.xes')
