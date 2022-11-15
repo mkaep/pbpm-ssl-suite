@@ -178,7 +178,7 @@ if __name__ == '__main__':
     #metric = 'Accuracy'
     #check_significance(experiment_dir, strategies, datasets, approaches, 2, None)
 
-    importer = json.JsonExperimentImporter(r'/home/ai4-admin/runs/test_exp_small.json')
+    importer = json.JsonExperimentImporter(r'/home/ai4-admin/runs/exp_small.json')
     loaded_experiment = importer.load()
     augmentation_pipeline.run_pipeline(loaded_experiment, True)
 
