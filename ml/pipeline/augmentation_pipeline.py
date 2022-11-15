@@ -160,6 +160,5 @@ def run_pipeline(experiment: model.AugmentationExperiment, verbose=False) -> Non
                 job_targets = os.path.join(experiment_dir, '.jobs', 'jobs.jsonl')
                 json.JsonJobExporter(job_targets).save(jobs, verbose)
 
-    exit(-1)
     executor = job_executor.JobExecutor(os.path.join(experiment_dir, '.jobs'), jobs, verbose)
     executor.run()
