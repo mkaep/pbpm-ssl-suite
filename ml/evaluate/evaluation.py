@@ -182,7 +182,7 @@ def evaluate_correlations(experiment_dir: str, strategies: typing.List[str], dat
 
     evaluation_model = build_evaluation_model(experiment_dir, strategies)
     architecture_result = experiment_evaluation.ArchitectureExperimentEvaluation() \
-        .run_evaluation(evaluation_model, [core_metrics.ArchitectureWrapper(['trainable_weights'])])
+        .run_evaluation(evaluation_model, [core_metrics.ArchitectureWrapper(['trainable_weights_model'])])
     data_x_df = architecture_result.to_dataframe(aggregate_on=aggregate_on)
 
     data_y_df = pd.DataFrame()

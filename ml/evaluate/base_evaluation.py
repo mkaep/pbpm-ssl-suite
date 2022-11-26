@@ -45,20 +45,22 @@ class ArchitectureEvaluation(BaseEvaluation):
 
     def aggregate(self, measures: typing.List[ev_model.ArchitectureEvaluationResult]
                   ) -> ev_model.ArchitectureEvaluationResult:
-        assert len(measures) > 0
-        items = measures[0].results.keys()
-        aggregated = dict()
-        for item in items:
-            prototype = measures[0].results[item]
-            if isinstance(prototype, int):
-                value = math.floor(sum([m.results[item] for m in measures]) / len(measures))
-            elif isinstance(prototype, float):
-                value = sum([m.results[item] for m in measures]) / len(measures)
-            elif prototype is None:
-                value = None
-            else:
-                raise ValueError('This should not happen. Not supported datatype')
-            aggregated[item] = value
+        if len(measures) > 0:
+            items = measures[0].results.keys()
+            aggregated = dict()
+            for item in items:
+                prototype = measures[0].results[item]
+                if isinstance(prototype, int):
+                    value = math.floor(sum([m.results[item] for m in measures]) / len(measures))
+                elif isinstance(prototype, float):
+                    value = sum([m.results[item] for m in measures]) / len(measures)
+                elif prototype is None:
+                    value = None
+                else:
+                    raise ValueError('This should not happen. Not supported datatype')
+                aggregated[item] = value
+        else:
+            aggregated = dict()
         return ev_model.ArchitectureEvaluationResult(aggregated)
 
     @staticmethod

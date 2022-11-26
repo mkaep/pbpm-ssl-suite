@@ -80,10 +80,10 @@ if __name__ == '__main__':
                                               'D:\\PBPM_Approaches\\experiment\\evaluation_10', datasets, approaches,
                                               splitter_configuration, 2, augmentation_strategies_config)
 
-    exporter = json.JsonExperimentExporter(r'D:\PBPM_Approaches\experiment\experiments\exp_small.json')
+    exporter = json.JsonExperimentExporter(r'/experiments/exp_small.json')
     exporter.save(experiment)
 
-    importer = json.JsonExperimentImporter(r'D:\PBPM_Approaches\experiment\experiments\exp_small.json')
+    importer = json.JsonExperimentImporter(r'/experiments/exp_small.json')
     loaded_experiment = importer.load()
     print(loaded_experiment)
     print(isinstance(loaded_experiment, model.AugmentationExperiment))

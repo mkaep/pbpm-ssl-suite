@@ -1,7 +1,7 @@
 import tqdm
 import click
 import typing
-
+import pandas as pd
 from ml.evaluate.significance import stuart_maxwell
 from ml.analysis import event_log_analysis
 from ml.core import model, loader
@@ -43,6 +43,7 @@ def complete_jobs(job_directory: str, retry_failed: bool = False, verbose: bool 
 def evaluate_experiment(experiment_dir: str, strategies: typing.List[str], datasets: typing.List[str],
                         approaches: typing.List[str], metric: str, aggregate_on: str = 'run', num_precision: int = 3,
                         target_file: str = None):
+
     result = evaluation.evaluate_strategies_on_datasets_and_approaches(experiment_dir, strategies, datasets,
                                                                        approaches, metric, aggregate_on=aggregate_on,
                                                                        n_precision=num_precision,
@@ -169,23 +170,30 @@ def evaluate_correlations(experiment_dir: str, strategies: typing.List[str], dat
 
 
 if __name__ == '__main__':
-    #atasets = ['BPIC12', 'BPIC13', 'Helpdesk', 'Sepsis', 'BPIC15_1']
+    executor = job_executor.JobExecutor(r'/home/ai4-admin/runs/aug_study/.jobs', verbose=True)
+    executor.run()
+    executor.retry_failed_executions()
+    #pd.set_option('display.max_columns', None)
+    #pd.set_option('display.max_rows', None)
+    #datasets = ['BPIC15_1']
+    #datasets = ['Sepsis', 'BPIC13_closed', 'BPIC13_incidents', 'Helpdesk', 'BPIC12', 'BPIC15_1']
     #datasets_1 = ['BPIC12']
-    #approaches = ['Buksh', 'Camargo', 'Pasquadibisceglie', 'Theis']
+    #approaches = ['Buksh', 'Camargo', 'Theis', 'Mauro', 'Tax']
     #approaches_1 = ['Buksh']
-    #strategies = ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '3_mixed_True_2']
-    #experiment_dir = r'D:\runs_8\compStudy'
+    #strategies = ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '4_mixed_True_2',
+    #              '5_mixed_True_2.4', '6_mixed_True_2.6', '7_mixed_True_3']
+    #experiment_dir = r'D:\_runs\aug_study'
     #metric = 'Accuracy'
     #check_significance(experiment_dir, strategies, datasets, approaches, 2, None)
 
-    importer = json.JsonExperimentImporter(r'/home/ai4-admin/runs/exp_small.json')
-    loaded_experiment = importer.load()
-    augmentation_pipeline.run_pipeline(loaded_experiment, True)
-    print('ready')
+    #importer = json.JsonExperimentImporter(r'/home/ai4-admin/runs/exp_small.json')
+    #loaded_experiment = importer.load()
+    #augmentation_pipeline.run_pipeline(loaded_experiment, True)
+    #print('ready')
 
 
     #evaluate_correlations(experiment_dir, strategies, datasets, approaches, '', '', 'fold', None)
-    #evaluation.evaluate_gain_of_strategies_on_datasets_and_approaches(experiment_dir, strategies, datasets, approaches, metric)
+    #print(evaluation.evaluate_gain_of_strategies_on_datasets_and_approaches(experiment_dir, strategies, datasets, approaches, metric))
     #evaluate_experiment(experiment_dir, strategies, datasets, approaches, metric)
     #stuart_maxwell.perform_significance_test(r'D:\runs_8\compStudy\Helpdesk\Camargo\rep_0\fold_0\base\result.csv', r'D:\runs_8\compStudy\Helpdesk\Camargo\rep_0\fold_0\1_mixed_True_1.2\result.csv')
     #cli()
