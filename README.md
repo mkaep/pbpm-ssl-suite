@@ -6,14 +6,16 @@
 4. Validate the installation by activating the environment (`conda activate pbpm-experiment`)
 
 
-
 ## Change environment
 `conda env update --name pbpm-experiment --file env.yaml --prune`
 
 
 ## Results
 All results of our experiments can be found in plotted version in the folder evaluation. Since the experiment requires a lot of data and space, the used XES logs for training and testing can be accessed by the following link:
+https://my.hidrive.com/share/5uhqb6r5d5 
+
 This link contains also the outputs of the models and the time measurements that were recorded during the training process.
+The used hyperparameters are recorded in ml.augmentation_experiment_mixed.py
 
 ## Approaches
 Since the code of approaches is mainly not our own, we can not provide them in this repository. The original code of the approaches can be 
