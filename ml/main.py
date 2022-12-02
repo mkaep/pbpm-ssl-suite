@@ -39,6 +39,42 @@ def complete_jobs(job_directory: str, retry_failed: bool = False, verbose: bool 
     if retry_failed is True:
         executor.retry_failed_executions()
 
+def augmentation_dependency(experiment_dir: str, strategies: typing.List[str], datasets: typing.List[str],
+                        approaches: typing.List[str], metric: str, aggregate_on: str = 'run', num_precision: int = 3,
+                        target_file: str = None):
+
+    #result = evaluation.evaluate_prefix_total(experiment_dir, strategies, datasets,
+    #                                            approaches, metric, aggregate_on=aggregate_on,
+    #                                            n_precision=num_precision,
+    #                                            target_file=target_file)
+
+    result = evaluation.augmentation_dependency(experiment_dir, strategies, datasets,
+                                                                       approaches, metric, aggregate_on=aggregate_on,
+                                                                       n_precision=num_precision,
+                                                                       target_file=target_file)
+    print(result)
+
+
+
+def create_table(experiment_dir: str, strategies: typing.List[str], datasets: typing.List[str],
+                        approaches: typing.List[str], metric: str, aggregate_on: str = 'run', num_precision: int = 3,
+                        target_file: str = None):
+    result = evaluation.get_table(experiment_dir, strategies, datasets,
+                                                                       approaches, metric, aggregate_on=aggregate_on,
+                                                                       n_precision=num_precision,
+                                                                       target_file=target_file)
+    click.echo(result)
+
+
+def training_procedure_analysis(experiment_dir: str, strategies: typing.List[str], datasets: typing.List[str],
+                        approaches: typing.List[str], metric: str, aggregate_on: str = 'run', num_precision: int = 3,
+                        target_file: str = None):
+    result = evaluation.training_procedure(experiment_dir, strategies, datasets,
+                                                                       approaches, metric, aggregate_on=aggregate_on,
+                                                                       n_precision=num_precision,
+                                                                       target_file=target_file)
+    click.echo(result)
+
 
 def evaluate_experiment(experiment_dir: str, strategies: typing.List[str], datasets: typing.List[str],
                         approaches: typing.List[str], metric: str, aggregate_on: str = 'run', num_precision: int = 3,
@@ -48,11 +84,15 @@ def evaluate_experiment(experiment_dir: str, strategies: typing.List[str], datas
                                                                        approaches, metric, aggregate_on=aggregate_on,
                                                                        n_precision=num_precision,
                                                                        target_file=target_file)
+
+    with open('D:\\resultttt.txt', 'w', encoding='utf8') as f:
+        f.write(result.to_latex())
     click.echo(result)
 
 
 def evaluate_strategies_on_dataset_on_approach_detailed(experiment_dir: str, dataset: str, approach: str,
                                                         strategies: typing.List[str], metric: str):
+    print(strategies)
     evaluation.evaluate_strategies_on_dataset_and_approach(experiment_dir, dataset, approach, strategies, metric)
 
 
@@ -86,7 +126,6 @@ def evaluate_gain(experiment_dir: str, strategies: typing.List[str], datasets: t
                   approaches: typing.List[str], metric_name: str = 'Accuracy', aggregate_on: str = 'run',
                   num_precision: int = 2,
                   target_file: str = None):
-
     result = evaluation.evaluate_gain_of_strategies_on_datasets_and_approaches(experiment_dir, list(strategies),
                                                                                list(datasets),
                                                                                list(approaches), metric_name,
@@ -119,28 +158,15 @@ def run_experiment(experiment_file: str, verbose: bool = False):
         classic_pipeline.run_pipeline(experiment, verbose)
 
 
-@cli.command('analyse-event-logs', short_help='extract useful statistics', help='Extracts statistics from one or more '
-                                                                                'event logs')
-@click.argument('event_logs', type=console.EventLogsDefinitionsParam())
-@click.argument('stats_names', type=click.Choice(event_log_analysis.EventLogDescriptor.get_available_steps(),
-                                                 case_sensitive=False), nargs=-1)
-@click.option('-clear_names', '--clear-names',
-              help='If set the program uses the full name of the desired steps',
-              default=True, is_flag=True)
-@click.option('-orientation', default='columns', type=click.Choice(['row', 'columns']),
-              help='Indicates whether datasets should be used as columns or rows')
-@click.option('-num_precision', '--num_precision', default=2, required=False, help='Number of digits')
-@click.option('-v', '--verbose',
-              help='If set this program will be more verbose, i.e. commenting steps that are processed.',
-              default=False, is_flag=True)
-@click.option('-target_file', '--target_file',
-              required=False)
+
 def get_event_log_characteristics(event_logs: typing.Dict[str, str], stats_names: typing.List[str],
                                   clear_names: bool = True, orientation: str = 'columns', num_precision: int = 2,
                                   verbose: bool = False, target_file: str = None):
     assert orientation in {'row', 'columns'}
     assert len(event_logs.keys()) > 0
     assert num_precision > 0
+
+    print(event_logs)
 
     stats: typing.Dict[str, typing.Dict] = dict()
     event_log_names = event_logs.keys()
@@ -157,52 +183,84 @@ def get_event_log_characteristics(event_logs: typing.Dict[str, str], stats_names
 
 
 def evaluate_correlations(experiment_dir: str, strategies: typing.List[str], datasets: typing.List[str],
-                  approaches: typing.List[str], x_property: str = '', y_property: str='', aggregate_on: str = 'run',
-                  target_file: str = None):
+                          approaches: typing.List[str], x_property: str = '', y_property: str = '',
+                          aggregate_on: str = 'run',
+                          target_file: str = None):
     supported_properties = ['']
     assert x_property in supported_properties, f'Currently only {supported_properties} are supported x_properties'
     assert y_property in supported_properties, f'Currently only {supported_properties} are supported y_properties'
 
     result = evaluation.evaluate_correlations(experiment_dir, strategies, datasets, approaches, x_property, y_property,
-                                              aggregate_on, target_file)
+                                              aggregate_on, target_file=target_file, x_label='# Trainable parameters',
+                                              y_label='Accuracy Gain in %', x_scale='log')
 
     click.echo(result)
 
 
 if __name__ == '__main__':
-    executor = job_executor.JobExecutor(r'/home/ai4-admin/runs/aug_study/.jobs', verbose=True)
-    executor.run()
-    executor.retry_failed_executions()
-    #pd.set_option('display.max_columns', None)
-    #pd.set_option('display.max_rows', None)
-    #datasets = ['BPIC15_1']
-    #datasets = ['Sepsis', 'BPIC13_closed', 'BPIC13_incidents', 'Helpdesk', 'BPIC12', 'BPIC15_1']
-    #datasets_1 = ['BPIC12']
-    #approaches = ['Buksh', 'Camargo', 'Theis', 'Mauro', 'Tax']
-    #approaches_1 = ['Buksh']
-    #strategies = ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '4_mixed_True_2',
-    #              '5_mixed_True_2.4', '6_mixed_True_2.6', '7_mixed_True_3']
-    #experiment_dir = r'D:\_runs\aug_study'
-    #metric = 'Accuracy'
-    #check_significance(experiment_dir, strategies, datasets, approaches, 2, None)
+    #datasets = {
+    #    'Helpdesk': r'../data/Helpdesk.xes',
+    #    'Sepsis': r'../data/Sepsis.xes',
+    #    'BPIC13_closed': r'../data/BPI_Challenge_2013_closed_problems.xes',
+    #    'BPIC13_incidents': r'../data/BPI_Challenge_2013_incidents.xes',
+    #    'BPIC15_1': r'../data/BPIC15_1.xes',
+    #    'BPIC12': r'../data/BPI_Challenge_2012.xes',
+    #    'NASA': r'../data/NASA.xes',
+    #}
+    #get_event_log_characteristics(datasets, ['number_cases',
+    #                                         'number_events',
+    #                                         'number_activities',
+    #                                         'avg_case_length',
+    #                                         'max_case_length',
+    #                                         'min_case_length',
+    #                                         'avg_event_duration',
+    #                                         'max_event_duration',
+    #                                         'min_event_duration',
+    #                                         'avg_case_duration',
+    #                                         'max_case_duration',
+    #                                         'min_case_duration',
+    #                                         'number_variants'], target_file='D:\\CHAR.txt', orientation='row')
+    # executor = job_executor.JobExecutor(r'/home/ai4-admin/runs/aug_study/.jobs', verbose=True)
+    # executor.run()
+    # executor.retry_failed_executions()
+    pd.set_option('display.max_columns', None)
+    pd.set_option('display.max_rows', None)
+    #datasets = ['Helpdesk']
+    #datasets = ['Helpdesk']
+    datasets = ['Sepsis', 'BPIC13_closed', 'BPIC13_incidents', 'Helpdesk', 'BPIC12', 'NASA', 'BPIC15_1']
+    #datasets = ['Sepsis', 'Helpdesk']
+    #datasets = ['BPIC12']
+    #approaches = ['Mauro']
+    approaches = ['Buksh', 'Camargo', 'Theis', 'Mauro', 'Tax', 'Pasquadibisceglie', 'Khan']
+    #approaches = ['Buksh']
+    strategies = ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '4_mixed_True_2',
+                  '5_mixed_True_2.4', '6_mixed_True_2.6', '7_mixed_True_3']
+    experiment_dir = r'D:\Research_Results\aug_study_3'
+    metric = 'Accuracy'
+    # check_significance(experiment_dir, strategies, datasets, approaches, 2, None)
 
-    #importer = json.JsonExperimentImporter(r'/home/ai4-admin/runs/exp_small.json')
-    #loaded_experiment = importer.load()
-    #augmentation_pipeline.run_pipeline(loaded_experiment, True)
-    #print('ready')
+    # importer = json.JsonExperimentImporter(r'/home/ai4-admin/runs/exp_small.json')
+    # loaded_experiment = importer.load()
+    # augmentation_pipeline.run_pipeline(loaded_experiment, True)
+    # print('ready')
 
-
-    #evaluate_correlations(experiment_dir, strategies, datasets, approaches, '', '', 'fold', None)
+    evaluate_correlations(experiment_dir, strategies, datasets, approaches, '', '', 'fold')
     #print(evaluation.evaluate_gain_of_strategies_on_datasets_and_approaches(experiment_dir, strategies, datasets, approaches, metric))
+    #strategies_base = ['base']
+    #augmentation_dependency(experiment_dir, strategies, datasets, approaches, metric)
+
+    #create_table(experiment_dir, strategies, datasets, approaches, metric)
+    #training_procedure_analysis(experiment_dir, strategies, datasets, approaches, metric)
     #evaluate_experiment(experiment_dir, strategies, datasets, approaches, metric)
+    #check_significance(experiment_dir, strategies, datasets, approaches)
+
     #stuart_maxwell.perform_significance_test(r'D:\runs_8\compStudy\Helpdesk\Camargo\rep_0\fold_0\base\result.csv', r'D:\runs_8\compStudy\Helpdesk\Camargo\rep_0\fold_0\1_mixed_True_1.2\result.csv')
-    #cli()
-    #evaluate_strategies_on_dataset_on_approach_detailed(r'D:\runs_8\compStudy', 'Helpdesk', 'Camargo', ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '3_mixed_True_2'])
-    #evaluate_architecture(r'D:\runs_8\compStudy')
-    #architecture_evaluation.evaluate_training_time(r'D:\runs_8\compStudy')
+    # cli()
+    #evaluate_strategies_on_dataset_on_approach_detailed(experiment_dir, 'Helpdesk', 'Camargo', strategies, metric)
+    # evaluate_architecture(r'D:\runs_8\compStudy')
+    # architecture_evaluation.evaluate_training_time(r'D:\runs_8\compStudy')
 
-    #compare_event_log_statistics(r'D:\runs_8\compStudy', 'Helpdesk', ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '3_mixed_True_2'],
-    #                             0, 0, event_log_analysis.EventLogDescriptor.get_available_steps(), 2, target_dir='D:\\')
-    #df = evaluate_experiment(r'D:\runs_8\compStudy', ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '3_mixed_True_2'], ['Helpdesk', 'Sepsis', 'BPIC12', 'BPIC13', 'BPIC15_1'], ['Buksh', 'Camargo', 'Pasquadibisceglie', 'Theis'])
-    #print(df)
-
+    # compare_event_log_statistics(r'D:\runs_8\compStudy', 'Helpdesk', ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '3_mixed_True_2'],
+    #                            0, 0, event_log_analysis.EventLogDescriptor.get_available_steps(), 2, target_dir='D:\\')
+    # df = evaluate_experiment(r'D:\runs_8\compStudy', ['base', '1_mixed_True_1.2', '2_mixed_True_1.4', '3_mixed_True_1.6', '3_mixed_True_2'], ['Helpdesk', 'Sepsis', 'BPIC12', 'BPIC13', 'BPIC15_1'], ['Buksh', 'Camargo', 'Pasquadibisceglie', 'Theis'])
+    # print(df)

@@ -36,7 +36,7 @@ if __name__ == '__main__':
             'lstm_act': 'tanh',
             'optim': 'Nadam',
             'epochs': 200,
-            'emb_epochs': 1,
+            'emb_epochs': 100,
             'batch_size': 32,
             'dense_act': None,
             'rp_sim': 0.85
